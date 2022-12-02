@@ -1,0 +1,131 @@
+
+h2{
+color:white;
+background-color:#005b28;
+text-align:center;
+padding: 10px;
+font-weight:100;
+font-size:30px;
+border-top-left-radius:7px;
+border-top-right-radius:7px;
+border-bottom:5px solid #F3FC8C;
+}
+
+.form-register{
+width:100%;
+max-width:600px;
+margin:auto;
+background:white;
+border-radius:7px;
+
+}
+
+.contenedor-inputs{
+padding: 5px 30px;
+display:flex;
+flex-wrap:wrap;
+justify-content:space-between !important;
+text-align: center;
+}
+
+input{
+margin-bottom: 15px !important;
+padding:10px;
+font-size:16px;
+border-radius:3px;
+border:1px solid darkgray;
+}
+.input-50{
+width: 100%;
+}
+.input-100{
+width: 100%;
+}
+
+.input-101{
+width: 100%;
+}
+
+.input-102{
+width: 100%;
+}
+
+
+
+#agregarPregunta{
+    display: none;
+    width:100%;
+}
+
+.respuesta{
+    width:70%;
+}
+
+#preguntaCerrada{
+
+margin-bottom:10px;
+}
+
+.tooltip1 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color:green;
+    font-size: 15px;
+  }
+  .tooltip2 {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    color:green;
+    font-size: 15px;
+  }
+
+
+.tooltip1 .tooltiptext{
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+
+  .tooltip2 .tooltiptext{
+    visibility: hidden;
+    width: 150px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+  }
+
+  .tooltip1:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .tooltip2:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  .btn-primary, .btn-primary:active, .btn-primary:visited {
+    background-color:#005b28 !important;
+    border-color:white !important;
+    }
+    .btn-primary:hover{
+    background-color:#08440f !important;
+    }
